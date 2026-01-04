@@ -164,6 +164,21 @@ a {
   border-color: var(--text-muted);
 }
 
+.github-btn {
+  gap: 6px;
+}
+
+.star-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(246, 194, 68, 0.1);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  margin-left: 4px;
+}
+
 /* Comparison (Antes/Después) */
 .comparison {
   padding: 60px 0;
