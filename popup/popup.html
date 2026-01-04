@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp Tag Groups</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Tag Groups</h1>
+      <p class="subtitle">Gestiona tus grupos de etiquetas</p>
+    </header>
+
+    <!-- Vista principal: Lista de grupos -->
+    <main id="main-view">
+      <div id="groups-list" class="groups-list">
+        <!-- Los grupos se cargan dinámicamente -->
+      </div>
+      
+      <button id="btn-add-group" class="btn-primary">
+        <span class="icon">+</span>
+        Nuevo grupo
+      </button>
+    </main>
+
+    <!-- Vista: Crear/Editar grupo -->
+    <section id="group-form" class="hidden">
+      <div class="form-header">
+        <button id="btn-back" class="btn-icon">←</button>
+        <h2 id="form-title">Nuevo grupo</h2>
+      </div>
+
+      <div class="form-content">
+        <div class="input-group">
+          <label for="group-name">Nombre del grupo</label>
+          <input type="text" id="group-name" placeholder="Ej: Marketing">
+        </div>
+
+        <div class="members-section">
+          <label>Miembros <span id="members-count">(0)</span></label>
+          <div id="members-list" class="members-list">
+            <!-- Miembros se cargan dinámicamente -->
+          </div>
+          <p class="hint">Agrega miembros desde WhatsApp Web usando el botón [+] junto a cada contacto</p>
+        </div>
+
+        <div class="form-actions">
+          <button id="btn-delete-group" class="btn-danger hidden">Eliminar</button>
+          <button id="btn-save-group" class="btn-primary">Guardar</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Abre WhatsApp Web para usar la extensión</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+

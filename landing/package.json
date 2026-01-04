@@ -1,0 +1,13 @@
+{
+  "name": "wa-tag-groups-landing",
+  "version": "1.0.0",
+  "description": "Landing page for WhatsApp Tag Groups Chrome Extension",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": ["whatsapp", "chrome-extension", "landing-page"],
+  "author": "",
+  "license": "MIT"
+}
+
