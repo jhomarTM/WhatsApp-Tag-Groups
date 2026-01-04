@@ -69,14 +69,23 @@ a {
   font-size: 0.95rem;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .nav a {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  transition: color 0.2s;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.2s;
 }
 
 .nav a:hover {
   color: var(--text-primary);
+  background: var(--bg-card);
 }
 
 /* Hero */
