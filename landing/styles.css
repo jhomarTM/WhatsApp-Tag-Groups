@@ -164,19 +164,27 @@ a {
 }
 
 .btn-disabled {
-  opacity: 0.5;
+  background: var(--bg-card) !important;
+  color: var(--text-muted) !important;
+  border: 1px solid var(--border-color);
   cursor: not-allowed;
-  position: relative;
+}
+
+.btn-disabled:hover {
+  transform: none;
+  box-shadow: none;
 }
 
 .coming-soon {
-  font-size: 0.65rem;
-  background: rgba(0, 0, 0, 0.3);
-  padding: 2px 6px;
+  font-size: 0.6rem;
+  background: var(--border-color);
+  color: var(--text-muted);
+  padding: 3px 8px;
   border-radius: 4px;
-  margin-left: 4px;
+  margin-left: 8px;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  font-weight: 500;
 }
 
 .btn-secondary {
