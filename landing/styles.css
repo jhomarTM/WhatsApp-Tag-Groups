@@ -334,6 +334,65 @@ a {
   font-size: 0.9rem;
 }
 
+/* Privacy */
+.privacy {
+  padding: 70px 0;
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.privacy h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.privacy-item {
+  text-align: center;
+}
+
+.privacy-item strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--accent);
+}
+
+.privacy-item p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.privacy-note {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.privacy-note a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+.privacy-note a:hover {
+  color: var(--text-primary);
+}
+
+@media (max-width: 700px) {
+  .privacy-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+}
+
 /* Footer */
 .footer {
   padding: 32px 0;
