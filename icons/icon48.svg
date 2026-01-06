@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Fondo verde WhatsApp -->
+  <rect width="48" height="48" rx="10" ry="10" fill="#25D366"/>
+  
+  <!-- Símbolo @ en blanco -->
+  <text 
+    x="24" 
+    y="35" 
+    font-family="Arial, sans-serif" 
+    font-size="32" 
+    font-weight="bold" 
+    fill="white" 
+    text-anchor="middle"
+  >@</text>
+</svg>
+
