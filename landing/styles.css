@@ -163,6 +163,18 @@ a {
   box-shadow: 0 6px 20px var(--accent-glow);
 }
 
+.chrome-btn {
+  font-weight: 600;
+}
+
+.chrome-btn svg {
+  transition: transform 0.2s;
+}
+
+.chrome-btn:hover svg {
+  transform: scale(1.1);
+}
+
 .btn-disabled {
   background: var(--bg-card) !important;
   color: var(--text-muted) !important;
